@@ -19,11 +19,11 @@ Prompt Distiller is a Claude skill that converts rambling, voice-dictated prompt
 
 ## Usage
 
-Send a messy dictated prompt, or say "clean" or "distill". Claude shows the cleaned prompt in a code block, lists any assumptions, then runs it. Say "clean only" to get the prompt without running it.
+Send a messy dictated prompt, or say "clean" or "distill". The assistant shows the cleaned prompt in a draft card when available, or as plain paragraphs, followed by any assumptions. It stops without executing the prompt. To execute it, explicitly ask "run it" or "نفذه" afterwards.
 
 ## Languages
 
-Arabic and English only. English is the base: the distilled prompt is written in English unless you ask for Arabic or the result itself must be in Arabic.
+Arabic and English only. English is the base: the distilled prompt is written in English unless you ask for Arabic or the result itself must be in Arabic. Already clear prompts remain unchanged in their original language.
 
 ## Customize
 
